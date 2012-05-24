@@ -1,0 +1,380 @@
+/* CSS field */
+#kc_ad_css_field {
+	width: 100%;
+}
+
+/* General */
+#icon-kittycatfish {
+	background: url("images/kittycatfish-icon-32.png") 0px 0px no-repeat;
+}
+
+.kc_ad_settings_panel {
+	margin-bottom: 30px;
+}
+
+.kc_ad_settings_panel h4 {
+	font-size: 14px;
+}
+
+/* Page/Post Selection */
+#kc_page_post_selection {
+	width: 100%;
+	overflow: hidden;
+	margin: 15px 0 0 0;
+}
+
+#kc_page_post_tabs {
+	width: 48%;
+	float: left;
+	position: relative;
+}
+
+#kc_page_post_tabs p.message {
+	position: absolute;
+	right: 5px;
+	top: 0px;
+	font-size: 12px;
+	font-style: italic;
+	color: #999999;
+}
+
+#kc_page_post_tabs p.message span {
+	font-size: 16px;
+}
+
+#kc_page_post_tabs .tabs {
+	width: 100%;
+	overflow: hidden;
+	margin: 0 0 -1px 0;
+}
+
+#kc_page_post_tabs .tabs li {
+	display: block;
+	float: left;
+	margin: 0 3px 0 0;
+	border: 1px solid #cccccc;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-image: linear-gradient(top, #E9E9E9 50%, #E0E0E0 100%);
+	background-image: -o-linear-gradient(top, #E9E9E9 50%, #E0E0E0 100%);
+	background-image: -moz-linear-gradient(top, #E9E9E9 50%, #E0E0E0 100%);
+	background-image: -webkit-linear-gradient(top, #E9E9E9 50%, #E0E0E0 100%);
+	background-image: -ms-linear-gradient(top, #E9E9E9 50%, #E0E0E0 100%);
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.5, #E9E9E9),
+		color-stop(1, #E0E0E0)
+	);
+}
+
+#kc_page_post_tabs .tabs li a, #kc_page_post_tabs .tabs li a:hover {
+	display: block;
+	float: left;
+	padding: 7px 10px;
+	text-decoration: none;
+	color: #333333;
+}
+
+#kc_page_post_tabs .tabs li.ui-tabs-selected {
+	background: #ffffff;
+	border-bottom-color: #ffffff;
+}
+
+#kc_page_post_tabs #kc_list_pages, #kc_page_post_tabs #kc_list_posts, #kc_selected {
+	border: 1px solid #cccccc;
+	background: #ffffff;
+	height: 300px;
+	overflow: auto;
+	padding-top: 7px;
+	margin: 0;
+}
+
+#kc_page_post_tabs #kc_list_pages, #kc_page_post_tabs #kc_list_posts {
+	-webkit-border-radius: 3px;
+	-webkit-border-top-left-radius: 0;
+	-moz-border-radius: 3px;
+	-moz-border-radius-topleft: 0;
+	border-radius: 3px;
+	border-top-left-radius: 0;
+}
+
+#kc_selected_container {
+	width: 48%;
+	float: right;
+}
+
+#kc_selected_container h4 {
+	margin: 10px 0 4px 5px;
+	font-size: 15px;
+	font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	font-weight: normal;
+}
+
+#kc_selected {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	width: 98%;
+}
+
+#kc_page_post_tabs #kc_list_pages li, #kc_page_post_tabs #kc_list_posts li, #kc_selected ul li {
+	border: 1px solid #dfdfdf;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin: 5px 10px 5px 10px;
+	padding: 7px 27px 8px 9px;
+	min-height: 17px;
+	width: 220px;
+	cursor: move;
+	position: relative;
+	background-image: linear-gradient(top, #F9F9F9 50%, #F5F5F5 100%);
+	background-image: -o-linear-gradient(top, #F9F9F9 50%, #F5F5F5 100%);
+	background-image: -moz-linear-gradient(top, #F9F9F9 50%, #F5F5F5 100%);
+	background-image: -webkit-linear-gradient(top, #F9F9F9 50%, #F5F5F5 100%);
+	background-image: -ms-linear-gradient(top, #F9F9F9 50%, #F5F5F5 100%);
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.5, #F9F9F9),
+		color-stop(1, #F5F5F5)
+	);
+}
+
+#kc_page_post_tabs #kc_list_pages li span.ui-icon, #kc_page_post_tabs #kc_list_posts li span.ui-icon, #kc_selected ul li span.ui-icon {
+	position: absolute;
+	right: 5px;
+	top: 8px;
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.ui-icon-select-item {
+	background: url("images/sprite-ui.png") 0px 0px no-repeat;
+}
+
+.ui-icon-return-item {
+	background: url("images/sprite-ui.png") -16px 0px no-repeat;
+}
+
+/* Position Settings */
+#kc_ad_position_options_box {
+	border: 1px solid #dfdfdf;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #ffffff;
+	height: 300px;
+	width: 720px;
+	overflow: hidden;
+}
+
+#kc_ad_screen_location {
+	width: 340px;
+	height: 236px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	background: url("images/monitor.png") 0px 0px no-repeat;
+	margin: 25px 0 0 25px;
+}
+
+#kc_ad_screen_location li {
+	display: block;
+	position: absolute;
+	border: 1px solid #d1d1d1;
+	background: #f8f8f8;
+	overflow: hidden;
+	padding: 7px 10px 5px 10px;
+	width: auto;
+}
+
+#kc_ad_screen_location_top_button {
+	left: 138px;
+	top: 11px;
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+#kc_ad_screen_location_top_button input, #kc_ad_screen_location_left_button input, #kc_ad_screen_location_bottom_button input {
+	float: left;
+	margin-right: 5px;
+}
+
+#kc_ad_screen_location_right_button {
+	right: 11px;
+	top: 84px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+#kc_ad_screen_location_right_button input {
+	float: right;
+	margin-left: 5px;
+}
+
+#kc_ad_screen_location_bottom_button {
+	left: 130px;
+	bottom: 41px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+#kc_ad_screen_location_left_button {
+	left: 11px;
+	top: 84px;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-bottomright: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+#kc_ad_vert_position, #kc_ad_horiz_position {
+	float: left;
+	margin: 25px 0 0 40px;
+	width: 290px;
+}
+
+#kc_ad_vert_position h5, #kc_ad_horiz_position h5 {
+	margin: 0 0 10px 0;
+	font-size: 13px;
+}
+
+#kc_ad_horiz_position p#kc_ad_spacer {
+	margin: 12px 0 0 0;
+}
+
+#kc_ad_horiz_position p#kc_ad_spacer em {
+	font-size: 11px;
+	color: #666666;
+}
+
+/* Display Settings */
+#kc_ad_display_settings p {
+	margin: 2em 0;
+}
+
+#kc_ad_display_settings label span.note {
+	margin-left: 1.5em;
+	font-style: italic;
+}
+
+#kc_ad_display_settings label span.note code {
+	font-style: normal;
+}
+
+/* Side Box */
+#kc_side_box {
+	margin: 16px 3px 5px 3px;
+}
+
+#wtwlogo {
+	display: block;
+}
+
+#kc_contact_block {
+	position: relative;
+	margin: 30px 0 30px 0;
+}
+
+#kc_contact_form p {
+	width: 100%;
+	overflow: hidden;
+}
+
+#kc_contact_form p label, #kc_contact_form p input, #kc_contact_form p textarea {
+	display: block;
+	float: left;
+}
+
+#kc_contact_form p label {
+	margin: 5px 0 0 0;
+	width: 55px;
+}
+
+#kc_contact_form p input {
+	width: 195px;
+}
+
+#kc_contact_form p textarea {
+	clear: left;
+	width: 251px;
+	height: 100px;
+}
+
+#kc_contact_form p input#kc_contact_submit {
+	background: #4ecd08;
+	border: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #ffffff;
+	width: 100px;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	display: block;
+	float: right;
+	padding: 6px 0 5px 0;
+}
+
+.kc_contact_error {
+	color: #bc0b0b;
+	text-align: right;
+	font-style: italic;
+}
+
+#kc_form_processing {
+	background: url("images/loading_bar.gif") center bottom no-repeat;
+	width: 252px;
+	padding: 0 0 20px 0;
+	text-align: center;
+	position: absolute;
+	left: 0px;
+	top: 75px;
+}
+
+#kc_form_thanks {
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	padding: 5px 20px 10px 20px;
+	width: 192px;
+	position: absolute;
+	left: 10px;
+	top: 75px;
+}
+
+#kittycatfish_thanks {
+	padding: 30px 20px 30px 20px;
+	border-top: 1px solid #dfdfdf;
+}
+
+#kittycatfish_thanks a {
+	display: block;
+	width: 600px;
+	height: 45px;
+}
