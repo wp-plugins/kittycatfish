@@ -1,9 +1,9 @@
 === KittyCatfish ===
 Contributors: Missilesilo
-Tags: ads,catfish,advertising,banner,bottom ad,slide out ad,advert,ad management
+Tags: ads,catfish,advertising,banner,bottom ad,slide out ad,advert,ad management,flyout ad
 Requires at least: 3.3.1
-Tested up to: 3.3.1
-Stable tag: 2.1
+Tested up to: 3.3.2
+Stable tag: 2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,6 +32,11 @@ Use the WordPress plugin installer to upload the zip file, or unzip the zip file
 Check out the [KittyCatfish home page](http://www.missilesilo.com/kittycatfish/) for instructions on using the plugin. (With pictures!)
 
 == Changelog ==
+
+= 2.2 =
+* New feature: shortcode trigger. Add the [kittycatfish_trigger] shortcode to your post or page content, and the ad will appear when the user scrolls to that point.
+
+* Standard content filters added; now you can do things like add shortcodes to the ad's content.
 
 = 2.1 =
 * Number of times ad has been shown and whether the user has closed it are now independent values for each ad.
