@@ -1,4 +1,4 @@
-=== KittyCatfish ===
+=== KittyCatfish Ads by Missilesilo ===
 Contributors: Missilesilo
 Tags: ads,catfish,advertising,banner,bottom ad,slide out ad,advert,ad management,flyout ad
 Requires at least: 3.3.1
